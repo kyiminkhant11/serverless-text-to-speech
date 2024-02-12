@@ -35,4 +35,3 @@ def consume_text_async(bucket_name: str, object_key: str) -> None:
         s3_bucket=bucket_name,
     )
     send_binary_file(audio_stream.read())
-

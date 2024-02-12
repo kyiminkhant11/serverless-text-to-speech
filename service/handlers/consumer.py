@@ -25,4 +25,3 @@ def start(event: Dict[str, Any], context: LambdaContext) -> None:
         object_key = record.s3.object.key
         consume_text_async(bucket_name, object_key)
     logger.info('finished handling text processor event')
-

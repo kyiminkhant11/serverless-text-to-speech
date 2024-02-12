@@ -12,4 +12,3 @@ tracer: Tracer = Tracer()
 
 # namespace and service name can be set by environment variable "POWERTOOLS_METRICS_NAMESPACE" and "POWERTOOLS_SERVICE_NAME" accordingly
 metrics = Metrics(namespace=METRICS_NAMESPACE)
-
