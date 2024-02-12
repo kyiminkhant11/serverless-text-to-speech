@@ -2,6 +2,7 @@
 name = "serverless_text_to_speech"
 version = "1.1.0"
 description = "This repository deploys a serverless service that takes text files uploaded to a bucket, converts them to an MP3 and sends the output to an email address"
+authors = ["Kyi Min Khant"]
 classifiers=[
     "Natural Language :: English",
     "Programming Language :: Python :: 3.11",
