@@ -9,8 +9,8 @@ from service.handlers.utils.observability import logger
 
 def send_binary_file(data: bytes):
     # Replace these with your own values
-    sender_email = 'kyiminkhant22@gmail.com'
-    recipient_email = 'zerodj022@gmail.com'
+    sender_email = ''
+    recipient_email = ''
 
     # Create a multipart/mixed message object
     msg = MIMEMultipart()
